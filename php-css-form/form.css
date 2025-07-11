@@ -1,0 +1,113 @@
+body {
+    background-color: #3D3D3D;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #FCFFC1;
+    color: #000B58;
+    padding: 20px;
+    width: 50vw;
+    max-width: 600px;
+}
+
+fieldset#name {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #818C78;
+    border-radius: 5px;
+}
+
+fieldset#doc, fieldset#company {
+    border: 2px solid #818C78;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+#pno_cn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#document, #marks, #caddress, #country {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    padding: 5px 0;
+    margin: 10px 0px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 0 0;
+    border: 1px solid #3A3960;
+    background-color: #FFFDF0;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+#fcolor {
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    margin: 0 0 0 20px;
+    padding: 10px 0;
+}
+
+#terms {
+    width: auto;
+    padding: 10px;
+}
+
+#rating {
+    border: 2px solid #818C78;
+}
+.rate {
+    width: auto;
+    padding: 10px;
+    margin: 0 0 0 20px;
+}
+
+.subres {
+    width: 100px;
+    height: 60px;
+    padding: 0px;
+    background-color: #C890A7;
+}
+
+#subdiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#submit, #reset {
+    background-color: #C890A7;
+    color: #000B58;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#submit:hover, #reset:hover, #submitimage:hover {
+    background-color: #3B1C32;
+    color: white;
+}
